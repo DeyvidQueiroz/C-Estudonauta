@@ -12,7 +12,7 @@ printf("Digite um numero: ");
 scanf("%d", &n);
 
 int d = n * 2;
-float t = n / 3;
+float t = (float)n / 3;
 
 
 printf("Analisando o número %d, seu dobro é %d e sua terça parte é %.2f", n, d, t);
